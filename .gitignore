@@ -1,0 +1,14 @@
+# Локальні директорії Terraform
+**/.terraform/*
+
+# Файли стану
+*.tfstate
+*.tfstate.*
+
+# Файли зі змінними
+*.tfvars
+*.tfvars.json
+
+# Файли конфігурації CLI
+.terraformrc
+terraform.rc
